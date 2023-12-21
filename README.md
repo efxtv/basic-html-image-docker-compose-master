@@ -28,6 +28,11 @@ You can change index.html before you push the first command.
 
 Some commands you might find helpful.
 
+- List of running dockers
+```
+docker images
+```
+
 - Stop all the docker containers:
 ```
 docker ps -q|sed 's#^#docker stop #g'|bash
