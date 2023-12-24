@@ -10,6 +10,9 @@ Here are three files
 - Dockerfile
 - Docker-compose.yaml
 - index.html
+```
+git clone https://github.com/efxtv/basic-html-image-docker-compose-master.git
+```
 
 ## For docker build
 
