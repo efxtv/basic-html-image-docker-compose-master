@@ -48,6 +48,9 @@ docker stop dockerid
 ```
 docker rmi -f IMAGEID
 docker images|awk '{print "docker rmi -f "$3}'|sed '1d'|bash
+or
+docker rmi REPOSITORY1 REPOSITORY2
+
 ```
 
 - Start Docker HTML Page
